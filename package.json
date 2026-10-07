@@ -1,0 +1,12 @@
+{
+  "name": "chat-tempo-real",
+  "version": "2.0.0",
+  "description": "Chat em tempo real com visual de terminal âmbar retrô (Node.js + WebSocket)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" },
+  "license": "MIT"
+}
