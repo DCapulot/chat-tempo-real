@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sala://chat</title>
+<link rel="stylesheet" href="chat-style.css">
+</head>
+<body>
+
+<div class="terminal">
+  <div class="barra">
+    <span class="dot"></span>
+    <span class="rota">sala://geral</span>
+    <span class="online" id="online">0 online</span>
+  </div>
+
+  <div class="log" id="log"></div>
+
+  <form class="prompt" id="formMsg">
+    <span class="seta">&gt;</span>
+    <input id="input" placeholder="digite e pressione enter" autocomplete="off">
+  </form>
+</div>
+
+<div class="overlay" id="overlayNick">
+  <form id="formNick">
+    <p>identifique-se para entrar na sala</p>
+    <input id="inputNick" placeholder="seu_nick" autocomplete="off" maxlength="16">
+    <button type="submit">conectar</button>
+  </form>
+</div>
+
+<script src="chat-script.js"></script>
+</body>
+</html>
